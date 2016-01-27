@@ -1,0 +1,6 @@
+mysqlclient
+django-wysiwyg
+django-tinymce
+djangorestframework
+markdown
+django-filter

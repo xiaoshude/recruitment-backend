@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <ul>
+        {% for job in job_list %}
+        <li>
+            {{job.job_title}}-{{job.post_time}}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
